@@ -1,0 +1,12 @@
+.Welcome {
+  list-style-type: none;
+}
+
+.Welcome a {
+  text-decoration: none;
+  color: black;
+}
+
+.Welcome a:hover {
+  text-decoration: underline;
+}

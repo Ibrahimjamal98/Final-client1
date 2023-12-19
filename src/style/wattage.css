@@ -1,0 +1,48 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 10%;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #00ff00;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00ff00;
+  transition: 1000ms;
+  transform: scale(1.1);
+  color: #333;
+}
+
+.total {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: -20%;
+  margin-left: 150px;
+  font-size: 1.8rem;
+}

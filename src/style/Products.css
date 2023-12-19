@@ -1,0 +1,122 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.container {
+  text-align: center;
+  margin-top: 5%;
+  background-color: white;
+  padding: 2%;
+}
+
+.sort-container,
+.filter-container {
+  margin-top: 30%;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  width: calc(50% - 50px);
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 50px;
+}
+
+#sort {
+  border-radius: 50px;
+  width: 20vw;
+  height: 40px;
+  background-color: #333;
+  color: aliceblue;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: none;
+  padding: 0 20px;
+  text-align: center;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#sort:hover {
+  background-color: #4b534b;
+  color: white;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 70%);
+  gap: 2%;
+  justify-content: center;
+  padding: 1%;
+  background-color: white;
+}
+
+.product-item {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.product-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.crud-options button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #2f3031;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 50px 50% 50px;
+  background-color: #00ff00;
+}
+
+.crud-options button:hover {
+  background-color: red;
+  transition: 200ms;
+}
+.product-image {
+  width: 100%;
+  height: 40vh;
+}
+
+.product-title {
+  margin-top: 4%;
+  font-size: 1.1rem;
+  font-weight: 600px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.product-price {
+  font-size: 1.3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #333;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 50px 0% 50px;
+  background-color: #00ff00;
+  margin-left: 20%;
+}
+
+.button {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 50px 0% 50px;
+  background-color: #333;
+  font-size: 14px;
+  width: 150px;
+  font-family: inherit;
+}
