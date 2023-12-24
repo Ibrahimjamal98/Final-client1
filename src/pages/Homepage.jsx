@@ -2,14 +2,13 @@ import "../style/Homepage.css";
 import React from "react";
 import Slider from "../components/Slider";
 import { MdLocalShipping } from "react-icons/md";
-import Fall from "../videos/fall.mp4";
 
 const Homepage = () => {
   return (
     <div>
       <label className="form1">
         <h5 className="text">
-          Holiday Shipping Details & Extended Holiday Returns{" "}
+          Free Holiday Shipping & Extended Holiday Returns{" "}
           <MdLocalShipping className="icon" />
         </h5>
       </label>
@@ -18,7 +17,6 @@ const Homepage = () => {
       </div>
 
       <div className="video-container">
-        <video className="video" src={Fall} autoPlay loop muted />
         <div className="video-text-container">
           <p className="video-text">
             <h1>TECHUICK</h1>{" "}
